@@ -1,11 +1,14 @@
 module And
-  attr_accessor :input_a, :input_b, :input_c, :input_d
+  attr_accessor all_gates.map(&:to_s)  # ~> NameError: undefined local variable or method `all_gates' for And:Module
 
   def all_1
     gates.all? do |gate|
       gate == 1
     end
   end
+
+  def attr_access
+    all
 
   def all_gates
     a = ("a".."z").to_a
@@ -88,3 +91,9 @@ gate.input_c = 1
 gate.output
 gate.input_a = 0
 gate.output
+
+# ~> NameError
+# ~> undefined local variable or method `all_gates' for And:Module
+# ~>
+# ~> /Users/matt/Turing/1point5module/class_exercises/logic_gates/logic_gates_and.rb:2:in `<module:And>'
+# ~> /Users/matt/Turing/1point5module/class_exercises/logic_gates/logic_gates_and.rb:1:in `<main>'
