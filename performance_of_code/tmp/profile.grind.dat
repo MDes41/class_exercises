@@ -1,0 +1,350 @@
+events: wall_time
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+fn=IO#write
+0 46
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+fn=Fixnum#to_s
+0 3
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+fn=IO#puts
+0 17
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 10
+10 3
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=IO#write
+calls=2 10
+10 46
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+fn=Kernel#puts
+0 24
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=IO#puts
+calls=1 10
+10 66
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+fn=Fixnum#<=>
+0 64646
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+fn=Range#include?
+0 91816
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 3
+3 2
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4 3
+3 1
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=8 3
+3 2
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=16 3
+3 2
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=32 3
+3 3
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=64 3
+3 10
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=128 3
+3 21
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=256 3
+3 29
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=512 3
+3 78
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=1024 3
+3 112
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=2048 3
+3 290
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4096 3
+3 542
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=8192 3
+3 1109
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=16380 3
+3 2237
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=32400 3
+3 4205
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=59652 3
+3 7829
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=91276 3
+3 12196
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=105332 3
+3 14005
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=87112 3
+3 11626
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=50464 3
+3 6776
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=20144 3
+3 2712
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=5404 3
+3 733
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=928 3
+3 118
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=92 3
+3 8
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4 3
+3 0
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+fn=Object#fib
+2 4
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=1 3
+3 8
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2 4
+4 282839
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2 3
+3 1
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=4 4
+4 282835
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=4 3
+3 5
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=8 4
+4 282827
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=8 3
+3 4
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=16 4
+4 282813
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=16 3
+3 9
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=32 4
+4 282786
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=32 3
+3 15
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=64 4
+4 282742
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=64 3
+3 40
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=128 4
+4 282655
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=128 3
+3 77
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=256 4
+4 282477
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=256 3
+3 190
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=512 4
+4 282113
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=512 3
+3 314
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=1024 4
+4 281429
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=1024 3
+3 667
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2048 4
+4 280086
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2048 3
+3 1319
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=4096 4
+4 277386
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=4096 3
+3 2645
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=8190 4
+4 271915
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=8190 3
+3 5280
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=16200 4
+4 260959
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=16200 3
+3 10324
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=29826 4
+4 239866
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=29826 3
+3 19051
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=45638 4
+4 202633
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=45638 3
+3 29226
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=52666 4
+4 148253
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=52666 3
+3 34000
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=43556 4
+4 88665
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=43556 3
+3 28184
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=25232 4
+4 40814
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=25232 3
+3 16483
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=10072 4
+4 13838
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=10072 3
+3 6506
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2702 4
+4 3320
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2702 3
+3 1790
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=464 4
+4 536
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=464 3
+3 297
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=46 4
+4 54
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=46 3
+3 26
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2 4
+4 4
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2 3
+3 2
+
+fl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+fn=Global#[No method]
+10 32
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=1 10
+10 282851
+cfl=/Users/matt/Turing/1point5module/class_exercises/performance_of_code/ruby_runtime
+cfn=Kernel#puts
+calls=1 10
+10 90
+
